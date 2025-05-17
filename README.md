@@ -65,7 +65,7 @@ Traditional web scrapers extract raw HTML or text, but interpreting and extracti
 ## 🛠️ Setup Instructions
 
 #bash
-git clone https://github.com/jhanvikh/ai-web-parser.git
+git clone [https://github.com/jhanvikh/ai-web-parser.git](https://github.com/jhanvikh/Smart-Web-Parser.git)
 cd ai-web-parser
 pip install -r requirements.txt
 streamlit run main.py
