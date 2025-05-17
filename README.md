@@ -5,13 +5,13 @@ An intelligent web scraping tool built with **Streamlit**, **Selenium**, **Beaut
 - 🧠 Scrape any website URL  
 - 🧹 Clean and extract relevant DOM content  
 - 💬 Ask AI custom questions to extract specific information  
-- 📄 (Optional) Export parsed results (PDF export coming soon)
+- 📄 Export parsed results (PDF export coming soon)
 
 ---
 
 ## 🚀 Features
 
-- Enter any public URL and fetch website content  
+- Enter public URL and fetch website content  
 - Clean DOM body content (removes scripts, ads, styles)  
 - Interactively query the cleaned content using an AI language model  
 - View and analyze cleaned DOM content and parsed output in a user-friendly Streamlit app  
@@ -30,26 +30,51 @@ An intelligent web scraping tool built with **Streamlit**, **Selenium**, **Beaut
 
 ---
 
-## 📸 App UI & Output Preview
+
+
+## 📸 App UI & Sample Outputs
 
 Below are some screenshots showing the app interface and sample outputs.
 
 ![scaore 11](https://github.com/user-attachments/assets/25c268e5-7ea3-4282-9b73-c1d21a0db676)
 
+![scrape Weather](https://github.com/user-attachments/assets/c5530022-7c14-48b4-957c-0dc0ade33ae1)
 
-
-### How to Add Your Images
-
-1. Create a folder named `images` in your project root directory (same level as README.md).  
-2. Save your screenshots there, e.g. `home_screen.png`, `dom_content.png`, `parsed_output.png`.  
-3. Reference them in the markdown as `![Alt Text](images/filename.png)`.
+![scrape quotes](https://github.com/user-attachments/assets/d0eb43e1-278c-4876-9461-64249db7b9a5)
 
 ---
 
+
+## 💡 Example Use Cases
+
+- Market research: Extract product details, prices, and reviews from e-commerce sites  
+- Content aggregation: Collect quotes, news snippets, or articles from multiple sources  
+- Data collection: Gather structured insights from unstructured web pages for analysis  
+- Custom data extraction: Extract specific sections or data points from complex websites using natural language instructions
+
+---
+
+## 🤖 Why AI-Powered Parsing?
+
+Traditional web scrapers extract raw HTML or text, but interpreting and extracting meaningful, context-aware data requires intelligent understanding. This project leverages Large Language Models (LLMs) via Ollama and LangChain to:
+
+- Understand user queries in natural language  
+- Extract only relevant data based on custom instructions  
+- Provide more precise, flexible, and human-like parsing beyond keyword matching
+
 ## 🛠️ Setup Instructions
 
-```bash
-git clone https://github.com/yourusername/ai-web-parser.git
+#bash
+git clone https://github.com/jhanvikh/ai-web-parser.git
 cd ai-web-parser
 pip install -r requirements.txt
 streamlit run main.py
+
+
+## ⚠️ Limitations & Future Improvements
+
+- Unable to scrape websites that block bots using IP bans, CAPTCHAs, or advanced anti-scraping measures (e.g., Cloudflare). Handling such sites typically requires paid proxy services or CAPTCHA-solving solutions, which are planned for future enhancements  
+- PDF export feature is currently under development  
+ 
+
+
