@@ -9,7 +9,7 @@ from scrape import (scrape_website,
 from parse import parse_with_ollama
 
 
-st.title("AI Web Scraper")
+st.title("Smart Web Parser")
 url=st.text_input("Enter a Website URL")
 
 if st.button("Scrape Site"):
