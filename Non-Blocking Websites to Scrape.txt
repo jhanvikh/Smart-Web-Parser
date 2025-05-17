@@ -1,0 +1,29 @@
+Non-Blocking Websites to Scrape
+
+Quotes to Scrape
+https://quotes.toscrape.com/
+— Made exactly for scraping practice. No blocks, simple HTML.
+
+Books to Scrape
+https://books.toscrape.com/
+— Fake online bookstore, perfect for beginners.
+
+httpbin
+https://httpbin.org/
+— Useful for testing HTTP requests and responses.
+
+Fake Store API (with frontend)
+https://fakestoreapi.com/
+— Fake e-commerce API with product data.
+
+OpenWeatherMap (free pages)
+https://openweathermap.org/city/2172797
+— Weather info pages, simple and public.
+
+Wikipedia
+https://en.wikipedia.org/wiki/Main_Page
+— Public info, large site but polite scraping rules.
+
+News sites like CNN or BBC (for headlines)
+https://www.cnn.com/
+— Just headlines and summary, light scraping.
